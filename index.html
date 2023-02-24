@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+                                                
+        <!--Navbar-->
+        <div id="nav">
+            <div id="logo"><p>D.</p></div>
+            <a href="#"><img src="images/filter.png" alt="filter"
+                 class="btn"> </a>
+            <a href="#"><img src="images/dashboard.png" alt="dashboard" 
+                class="btn active"></a>
+            <a href="#"><img src="images/profile.png" alt="profile" 
+                class="btn"></a>
+            <a href="#"><img src="images/stats.png" alt="status"
+                 class="btn"> </a>
+        </div>
+
+        <!--Main Area-->
+
+        <div id="main">
+            <h2>Progress dashboard</h2>     
+            <section class="top">
+                    <div class="exam">
+                        <p><span class="subtitle">Deadline</span> 12:00</p>
+                        <p class="largetitle"> Exam - Unit 5</p>
+                        <p class="subtitle">Spanish for begineers</p>
+                        <div class="test">
+                            <img src="images/profile-imgs.png" alt="profile img">
+                            <a href="#">Start test</a>
+                        </div>
+                </div>
+
+                    <div class="homework todo">
+                        <i class="fa-regular fa-circle-check"></i>
+                         <p class="todoTitle">Homework</p>
+                        <p class="todoSub">For today's,<br>Lesson.</p>
+                    </div>
+
+                    <div class="reading todo">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p class="todoTitle">Reading</p>
+                       <p class="todoSub">25 words per<br> week </p>
+                    </div>
+            </section>
+
+            <section class="middle">
+
+                <div class="group">
+                    <div class="groupheader">
+                        <p class="title">Group Info<br>
+                        <span class="subtitle">13 students in the group</span></p>
+                        <i class="fa-regular fa-bell"></i>
+                    </div>
+                    <div class="grouphomework">
+                        <p class="title"> Group Homework<br>
+                        <span class="subtitle"> 5 students from your group online now</span></p>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="groupfooter">
+                        <p class="title">Todays lesson<br>
+                        <span class="subtitle">Unit6 - Articles</span></p>
+                        <p>12:00</p>
+                    </div>
+                </div>
+                <div class="flagprogress">
+                    <div class="flagprogresstitle">
+                        <img src="images/spain.png" alt="Spain" title="Spain" >
+                        <p class="largetitle">Spanish for<br>beginner's</p>
+                    </div>
+                    <div class="flagprogressAnt">
+                        <p>75%</p>
+                        <progress value="75" max="100"></progress>
+                     </div>
+                </div>
+            </section>
+
+            <section class="bottom">
+                <div class="bottomGrammer bot">
+                    <div>
+                        <i class="fas fa-pencil-alt icon-circle"></i>
+                        <p class="title">Grammer <br>
+                        <span class="subtitle">+ 30 grammer rules</span></p>
+                        
+                    </div>
+                </div>
+
+                <div class="bottomDictonary bot">
+                    <div>
+                            <i class="fas fa-spell-check icon-circle"></i>
+                            <p class="title">Dictonary <br>
+                            <span class="subtitle">+ 10 new words</span></p>
+                           
+                        </div>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+            </section>
+        </div>
+
+        <!--Profile-->
+        <div id="profile">
+            <div class="pic">
+                <img src="images/wallpaperflare.com_wallpaper (13).jpg" alt="DOP" width="200px" height="200px">
+                <p class="largetitle name">DOP Developer</p>
+                <p class="subtitle">Like, Share and Subscribe</p>
+            </div>
+
+            <div class="add">
+                <div class="adbox">
+                    <p class="title">Get 10% sell price<br>
+                    <span>for Spanish course</span></p>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+
+            <div class="progress">
+                <p class="largetitle">Course Progress</p>
+                <div class="progressbox grammer">
+                    <p class="percent">63%</p>
+                    <i class="fas fa-pencil-alt"></i>
+                    <p class="title">Grammer <br> <span class="subtitle">
+                        Learn new rules</span></p>
+            </div>
+
+                <div class="progressbox dictonary">
+                        <p class="percent">74%</p>
+                        <i class="fas fa-spell-check"></i>
+                        <p class="title">Dictionary <br> <span class="subtitle">
+                         Learn new  words</span></p>
+                </div>
+
+                <div class="progressbox readings">
+                    <p class="percent">34%</p>
+                    <i class="fas fa-book-open"></i>
+                    <p class="title">Reading <br> <span class="subtitle">
+                     Train your skills</span></p>
+                </div>    
+         </div>
+    </div>
+</body>
+</html>
+
